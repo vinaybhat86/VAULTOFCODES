@@ -1,0 +1,163 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;800&family=Montserrat:wght@200;300;400;500;600;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
+        body {
+            min-height: 100vh;
+            width: 100%;
+        }
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            background-color: #D0D4D5;
+            font-family: Gabarito;
+        }
+        #main{
+            height: 100%;
+            width: 100%;
+            background-color: #D0D4D5;
+            position: relative;
+        }
+        #nav{
+            height: 110px;
+            padding: 0 60px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #nav img{
+            height: 35px;
+            margin-right: 180px;
+        }
+        #nav-prt1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #nav-prt1 h4{
+            margin-right: 60px;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        #nav-prt2 i{
+            margin-right: 60px;
+            font-size: 23px;
+            font-weight: 500;
+        }
+        #mens {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 0 10px;
+            margin-top: -150px;
+        }
+        #left{
+            width: 35%;
+            height: 100%;
+            padding: 80px 80px;
+        }
+        #left h5{
+            font-size: 18px;
+            color: #5d5d5d;
+            margin-bottom: 2px;
+        }
+        #left h1{
+            font-size: 60px;
+            text-transform: uppercase;
+            line-height: 64px;
+            margin-bottom: 20px;
+        }
+        #left p{
+            font-size: 18px;
+            color: #585858;
+            margin-bottom: 30px;
+        
+        }
+        #left button{
+            background-color: black;
+            color:#fff;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 10px 22px;
+            border-radius: 50px;
+            border-top-left-radius: 0px;
+            text-transform: uppercase;
+        }
+        .elem {
+            height: 340px;
+            width: 280px;
+            background-color: #fff;
+            position: relative;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+            display: inline-block;
+            margin-left: 20px;
+            margin: 30px;
+            transition: all 0.3s ease-in-out;
+        }
+        .elem:hover{
+            transform: scale(1.06);
+            box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .elem img {
+            position: absolute;
+            height: 70%;
+            width: 100%;
+            object-fit: cover;
+            top: 8%;
+        }
+
+        .elem #img2 {
+            position: absolute;
+            height: 40%;
+            width: 100%;
+            object-fit: cover;
+            top: 30%;
+        }
+
+        .elem #img4 {
+            position: absolute;
+            height: 40%;
+            width: 100%;
+            object-fit: cover;
+            top: 30%;
+        }
+
+        .elem #img5 {
+            position: absolute;
+            height: 40%;
+            width: 100%;
+            object-fit: cover;
+            top: 30%;
+        }
+
+        .elem h4 {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-color: #D0D4D5;
+            padding: 10px 14px;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+
+        .elem h5 {
+            position: absolute;
+            bottom: 11.5%;
+            right: 0;
+            background-color: #000000;
+            font-weight: 300;
+            padding: 10px 14px;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 13px;
+        }
+        #imagemen{
+            display: flex;
+            padding-left: 50px;
+        }
+        
